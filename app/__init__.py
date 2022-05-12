@@ -1,6 +1,9 @@
 """A simple flask web app"""
 import os
-from flask import Flask
+from flask import Flask, render_template
+from flask_bootstrap import Bootstrap5
+
+
 from app.cli import create_database
 from app.db import db
 from app.db.models import User
@@ -12,6 +15,8 @@ def page_not_found(e):
 def create_app():
     """Create and configure an instance of the Flask application."""
     app = Flask(__name__)
+    bootstrap = Bootstrap5(app)
+
     app.secret_key = 'This is an INSECURE secret!! DO NOT use this in production!!'
 
     app.register_error_handler(404, page_not_found)
