@@ -1,6 +1,10 @@
 """
 Test for logging in and registration and authorization
 """
+import logging
+
+from app import db
+from app.db.models import User, Song
 
 # def test_index_page_not_logged_in(client):
 #     res = client.get('./dashboard')
