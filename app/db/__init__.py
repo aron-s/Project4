@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 import os
 
+
 db = SQLAlchemy()
 
 database = Blueprint('database', __name__,)
