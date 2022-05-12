@@ -1,10 +1,10 @@
+import logging
+import os
+
 from flask import Blueprint, cli
 from flask_sqlalchemy import SQLAlchemy
 
 from app import config
-
-import os
-
 
 db = SQLAlchemy()
 

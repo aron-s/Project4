@@ -1,8 +1,10 @@
 """A simple flask web app"""
+import logging
 import os
+from logging.handlers import RotatingFileHandler
 
 import flask_login
-from flask import Flask, render_template
+from flask import Flask
 from flask_bootstrap import Bootstrap5
 from flask_wtf.csrf import CSRFProtect
 
@@ -19,11 +21,6 @@ from app.songs import songs
 from app.db import database
 from flask_cors import CORS
 login_manager = flask_login.LoginManager()
-
-
-
-def page_not_found(e):
-    return render_template("404.html"), 404
 
 def create_app():
     """Create and configure an instance of the Flask application."""
