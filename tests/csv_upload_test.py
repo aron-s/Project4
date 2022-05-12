@@ -8,3 +8,4 @@ def test_uploads():
 def test_database():
     """test database once csv is processed"""
     assert os.path.exists('./database/') == True
+
