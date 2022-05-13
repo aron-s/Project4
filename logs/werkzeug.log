@@ -75,3 +75,36 @@
 2022-05-13 15:05:52,922 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:05:52] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
 2022-05-13 15:05:53,683 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:05:53] "GET /transactions HTTP/1.1" 200 -
 2022-05-13 15:17:39,605 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-13 15:51:47,318 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:51:47] "GET / HTTP/1.1" 200 -
+2022-05-13 15:52:37,014 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:52:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-13 15:52:37,125 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:52:37] "GET /login HTTP/1.1" 200 -
+2022-05-13 15:52:40,944 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:52:40] "GET /register HTTP/1.1" 200 -
+2022-05-13 15:52:49,726 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:52:49] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-13 15:52:49,787 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:52:49] "GET /login HTTP/1.1" 200 -
+2022-05-13 15:52:52,270 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:52:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-13 15:52:52,427 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:52:52] "GET /dashboard HTTP/1.1" 200 -
+2022-05-13 15:53:05,346 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:53:05] "GET /transactions HTTP/1.1" 200 -
+2022-05-13 15:53:07,687 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:53:07] "GET /songs HTTP/1.1" 200 -
+2022-05-13 15:53:11,279 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 15:53:11] "GET /transactions HTTP/1.1" 200 -
+2022-05-13 15:53:52,091 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-13 16:05:28,167 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:05:28] "GET /transactions HTTP/1.1" 200 -
+2022-05-13 16:06:08,642 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:06:08] "GET /transactions HTTP/1.1" 200 -
+2022-05-13 16:07:23,658 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:23] "GET /profile HTTP/1.1" 200 -
+2022-05-13 16:07:26,542 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:26] "GET /dashboard HTTP/1.1" 200 -
+2022-05-13 16:07:31,440 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-13 16:07:31,581 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:31] "GET /login HTTP/1.1" 200 -
+2022-05-13 16:07:33,342 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:33] "GET /register HTTP/1.1" 200 -
+2022-05-13 16:07:40,049 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:40] "POST /register HTTP/1.1" 200 -
+2022-05-13 16:07:46,439 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:46] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-13 16:07:46,506 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:46] "GET /login HTTP/1.1" 200 -
+2022-05-13 16:07:55,605 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-13 16:07:55,725 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:55] "GET /dashboard HTTP/1.1" 200 -
+2022-05-13 16:07:59,849 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:07:59] "GET /account HTTP/1.1" 200 -
+2022-05-13 16:08:02,060 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:08:02] "GET /users HTTP/1.1" 200 -
+2022-05-13 16:08:02,172 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:08:02] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-05-13 16:11:00,800 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/transaction_test.py', reloading
+2022-05-13 16:13:58,299 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:13:58] "GET /transactions HTTP/1.1" 200 -
+2022-05-13 16:14:10,146 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/transaction_test.py', reloading
+2022-05-13 16:16:14,818 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:16:14] "GET /transactions HTTP/1.1" 200 -
+2022-05-13 16:16:57,224 [INFO] werkzeug: 172.18.0.1 - - [13/May/2022 16:16:57] "GET /transactions HTTP/1.1" 200 -
+2022-05-13 16:18:44,385 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/transaction_test.py', reloading
