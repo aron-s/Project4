@@ -24,3 +24,10 @@ def test_deny_csv_upload(client):
         res = client.get('/songs/upload', follow_redirects=True)
         assert b"Please log in to access this page." in res.data
         assert res.status_code == 200
+
+def test_deny_csv_upload_trans(client):
+    """Test for denying access to uploading csv file"""
+    with client:
+        res = client.get('/transactions/upload', follow_redirects=True)
+        assert b"Please log in to access this page." in res.data
+        assert res.status_code == 200
